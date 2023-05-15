@@ -19,12 +19,12 @@ body {
     grid-gap: 10px;
   }
   #statusText {
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .cell {
     background-color: white;
     border: 1px solid black;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,9 +32,10 @@ body {
   }
 
   #restartBtn {
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: 10px;
     width: 85px;
-    height: 40px;
+    height: 25px;
     cursor: pointer;
   }
 }
@@ -46,17 +47,17 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     grid-gap: 10px;
   }
   #statusText {
-    margin-bottom: 75px;
+    margin-bottom: 70px;
   }
   .cell {
     background-color: white;
     border: 1px solid black;
-    font-size: 60px;
+    font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +65,8 @@ body {
   }
 
   #restartBtn {
-    margin-top: 50px;
+    margin-top: 40px;
+    font-size: 15px;
     width: 100px;
     height: 40px;
     cursor: pointer;
@@ -78,18 +80,18 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     grid-gap: 10px;
   }
   #statusText {
     margin-bottom: 85px;
-    font-size: 40px;
+    font-size: 50px;
   }
   .cell {
     background-color: white;
     border: 1px solid black;
-    font-size: 60px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,8 +99,9 @@ body {
   }
 
   #restartBtn {
-    margin-top: 50px;
-    width: 100px;
+    margin-top: 60px;
+    font-size: 20px;
+    width: 125px;
     height: 40px;
     cursor: pointer;
   }
@@ -111,18 +114,18 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     grid-gap: 10px;
   }
   #statusText {
-    margin: 20px;
-    font-size: 50px;
+    margin-bottom: 80px;
+    font-size: 40px;
   }
   .cell {
     background-color: white;
     border: 1px solid black;
-    font-size: 60px;
+    font-size: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,9 +133,9 @@ body {
   }
 
   #restartBtn {
-    margin: 30px;
-    width: 150px;
-    height: 50px;
+    margin: 40px;
+    width: 120px;
+    height: 40px;
     font-size: 20px;
     cursor: pointer;
   }
@@ -150,7 +153,8 @@ body {
     grid-gap: 10px;
   }
   #statusText {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    font-size: px;
   }
   .cell {
     background-color: white;
@@ -171,7 +175,7 @@ body {
 }
 
 /* According to Mobile Orientation */
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 992px) {
   /* Your CSS Code for this device orientation */
   .main {
     display: grid;
@@ -182,7 +186,7 @@ body {
     grid-gap: 10px;
   }
   #statusText {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 30px;
   }
   .cell {
@@ -196,7 +200,7 @@ body {
   }
 
   #restartBtn {
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100px;
     height: 40px;
     cursor: pointer;
