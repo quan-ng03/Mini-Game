@@ -1,208 +1,33 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* Your CSS Code for this device size */
-  .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 200px;
-    height: 200px;
-    grid-gap: 10px;
-  }
-  #statusText {
-    margin-bottom: 50px;
-  }
-  .cell {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  #restartBtn {
-    margin-top: 30px;
-    font-size: 10px;
-    width: 85px;
-    height: 25px;
-    cursor: pointer;
-  }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  /* Your CSS Code for this device size */
-  .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 300px;
-    height: 300px;
-    grid-gap: 10px;
-  }
-  #statusText {
-    margin-bottom: 70px;
-  }
-  .cell {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  #restartBtn {
-    margin-top: 40px;
-    font-size: 15px;
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-  }
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 50px;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  /* Your CSS Code for this device size */
-  .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 350px;
-    height: 350px;
-    grid-gap: 10px;
-  }
-  #statusText {
-    margin-bottom: 85px;
-    font-size: 50px;
-  }
-  .cell {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  #restartBtn {
-    margin-top: 60px;
-    font-size: 20px;
-    width: 125px;
-    height: 40px;
-    cursor: pointer;
-  }
+.list {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  /* Your CSS Code for this device size */
-  .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 350px;
-    height: 350px;
-    grid-gap: 10px;
-  }
-  #statusText {
-    margin-bottom: 80px;
-    font-size: 40px;
-  }
-  .cell {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  #restartBtn {
-    margin: 40px;
-    width: 120px;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  /* Your CSS Code for this device size */
-  .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 500px;
-    height: 500px;
-    grid-gap: 10px;
-  }
-  #statusText {
-    margin-bottom: 100px;
-    font-size: px;
-  }
-  .cell {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  #restartBtn {
-    margin-top: 50px;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-  }
-}
-
-/* According to Mobile Orientation */
-@media only screen and (orientation: landscape) and (max-width: 992px) {
-  /* Your CSS Code for this device orientation */
-  .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 300px;
-    height: 300px;
-    grid-gap: 10px;
-  }
-  #statusText {
-    margin-bottom: 40px;
-    font-size: 30px;
-  }
-  .cell {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  #restartBtn {
-    margin-top: 30px;
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-  }
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  cursor: pointer;
 }
